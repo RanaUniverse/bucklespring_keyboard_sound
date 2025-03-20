@@ -1,0 +1,18 @@
+After i Cloned the repo:
+git clone https://github.com/zevv/bucklespring && cd ./bucklespring/
+
+then i need to have some dependencies packages,
+
+sudo apt-get install libopenal-dev libalure-dev libxtst-dev
+sudo apt-get install libinput-dev
+
+make libinput=1
+
+after i run this upper command it would change the structer the of the repo i cloned.
+and then i need to run below to run the sound 
+
+sudo -E -g input -u $(whoami) ./buckle
+This will stop on close the terminal app,
+
+nohup sudo -E -g input -u $(whoami) ./buckle > /dev/null 2>&1 &
+Then it will run on the machine even i close this terminal app.

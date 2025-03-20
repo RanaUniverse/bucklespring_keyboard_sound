@@ -1,0 +1,6 @@
+This 4 folders have some packages there, which is i need to install in online.
+
+And the most important things i need to run a sudo command and then nohup the same command to keep the sound running in background for all apps.
+
+
+only bucklespring package help me to use sound in external applications.

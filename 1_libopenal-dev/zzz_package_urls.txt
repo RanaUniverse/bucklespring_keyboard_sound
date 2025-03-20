@@ -1,0 +1,4 @@
+http://archive.ubuntu.com/ubuntu/pool/universe/o/openal-soft/libopenal-data_1.23.1-4build1_all.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/s/sndio/libsndio7.0_1.9.0-0.3build3_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/o/openal-soft/libopenal1_1.23.1-4build1_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/o/openal-soft/libopenal-dev_1.23.1-4build1_amd64.deb
