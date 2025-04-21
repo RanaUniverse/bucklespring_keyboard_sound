@@ -39,3 +39,21 @@ To stop it manually:
 ## What i will do
 
 The cloned repo is in the form of the zip file here which i need to extract and then i need to compile and run this to check how it works.
+
+
+bucklespring.zip
+This file i got on 21 April 2025
+
+I need to extract this in a ~/.apps_and_softwares location.
+
+## What to add in the .bashrc file:
+
+alias 1='cd ~/.apps_and_softwares/bucklespring && sudo -b -E -g input -u $USER ./buckle'
+
+alias abc='cd ~/.apps_and_softwares/bucklespring && sudo -b -E -g input -u $USER ./buckle'
+
+## To Stop This sound
+
+sudo pkill buckle
+
+
