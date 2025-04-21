@@ -48,12 +48,13 @@ I need to extract this in a ~/.apps_and_softwares location.
 
 ## What to add in the .bashrc file:
 
+```
 alias 1='cd ~/.apps_and_softwares/bucklespring && sudo -b -E -g input -u $USER ./buckle'
 
 alias abc='cd ~/.apps_and_softwares/bucklespring && sudo -b -E -g input -u $USER ./buckle'
-
+```
 ## To Stop This sound
-
+```
 sudo pkill buckle
-
+```
 
