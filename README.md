@@ -58,3 +58,9 @@ alias abc='cd ~/.apps_and_softwares/bucklespring && sudo -b -E -g input -u $USER
 sudo pkill buckle
 ```
 
+# How i make the Releases
+
+Example code to make release zip,
+
+
+zip -r bucklespring_keyboard_sound_v1.0.0.zip . -x ".git*"
