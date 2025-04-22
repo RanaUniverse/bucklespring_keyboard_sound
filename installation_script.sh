@@ -4,6 +4,13 @@
 echo "Creating the directory if it doesn't already exist... 🍌"
 mkdir -pv ~/.apps_and_softwares
 
+echo "Let's Installing the needful packages need to compile the buckle spring keyboard sound."
+
+sudo dpkg -i 1_libopenal-dev/*.deb
+sudo dpkg -i 2_libalure-dev/*.deb
+sudo dpkg -i 3_libxtst-dev/*.deb
+sudo dpkg -i 4_libinput-dev/*.deb
+
 # Clear old Bucklespring installation files but leave other contents intact
 echo "Checking old Bucklespring installation files inside ~/.apps_and_softwares... 🍌"
 if [ -d ~/.apps_and_softwares/bucklespring ]; then
